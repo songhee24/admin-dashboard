@@ -1,6 +1,8 @@
 .home {
-  background-color: rebeccapurple;
-  .title {
-    color: aliceblue;
+  display: flex;
+
+  .home-container {
+    // i don't have fixed values of size the window, sow just passing flex
+    flex: 6;
   }
 }
