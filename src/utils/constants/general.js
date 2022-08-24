@@ -13,51 +13,56 @@ import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 
 export const MENU_ITEMS = [
     {
+        title: 'MAIN',
         text: 'Dashboard',
-        icon: <DashboardIcon />,
+        icon: DashboardIcon,
     },
     {
+        title: 'LISTS',
         text: 'Users',
-        icon: <PersonOutlineOutlinedIcon />,
+        icon: PersonOutlineOutlinedIcon,
     },
     {
         text: 'Products',
-        icon: <InventoryIcon />,
+        icon: InventoryIcon,
     },
     {
         text: 'Orders',
-        icon: <BookmarkBorderOutlinedIcon />,
+        icon: BookmarkBorderOutlinedIcon,
     },
     {
         text: 'Delivery',
-        icon: <MarkunreadMailboxOutlinedIcon />,
+        icon: MarkunreadMailboxOutlinedIcon,
     },
     {
+        title: 'USEFUL',
         text: 'Stats',
-        icon: <QueryStatsOutlinedIcon />,
+        icon: QueryStatsOutlinedIcon,
     },
     {
         text: 'Notifications',
-        icon: <NotificationAddOutlinedIcon />,
+        icon: NotificationAddOutlinedIcon,
     },
     {
+        title: 'SERVICE',
         text: 'System Health',
-        icon: <MonitorHeartOutlinedIcon />,
+        icon: MonitorHeartOutlinedIcon,
     },
     {
         text: 'Logs',
-        icon: <LogoDevOutlinedIcon />,
+        icon: LogoDevOutlinedIcon,
     },
     {
         text: 'Settings',
-        icon: <RoomPreferencesOutlinedIcon />,
+        icon: RoomPreferencesOutlinedIcon,
     },
     {
+        title: 'USER',
         text: 'Profile',
-        icon: <ContactEmergencyOutlinedIcon />,
+        icon: ContactEmergencyOutlinedIcon,
     },
     {
         text: 'Logout',
-        icon: <LogoutOutlinedIcon />,
+        icon: LogoutOutlinedIcon,
     },
 ];

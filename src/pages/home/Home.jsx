@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.scss';
-import Sidebar from '../../components/Sidebar';
+import Sidebar from '../../components/sidebar/Sidebar';
 
 const Home = () => {
     return (
