@@ -1,5 +1,6 @@
 import React from 'react';
 import './sidebar.scss';
+import { MENU_ITEMS } from '../utils/constants/general';
 
 const Sidebar = () => {
     return (
@@ -9,18 +10,12 @@ const Sidebar = () => {
             </div>
             <div className="center">
                 <ul>
-                    <li>
-                        <span>Dashboard </span>
-                    </li>
-                    <li>
-                        <span>Dashboard </span>
-                    </li>
-                    <li>
-                        <span>Dashboard </span>
-                    </li>
-                    <li>
-                        <span>Dashboard </span>
-                    </li>
+                    {MENU_ITEMS.map((item) => (
+                        <li key={item.text}>
+                            {item.icon}
+                            <span>{item.text}</span>
+                        </li>
+                    ))}
                 </ul>
             </div>
             <div className="bottom">color options</div>
