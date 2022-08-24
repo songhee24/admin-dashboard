@@ -22,7 +22,10 @@ const Sidebar = () => {
                     ))}
                 </ul>
             </div>
-            <div className="bottom">color options</div>
+            <div className="bottom">
+                <div className="color-option"></div>
+                <div className="color-option"></div>
+            </div>
         </div>
     );
 };
