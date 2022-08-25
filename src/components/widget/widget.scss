@@ -1,6 +1,7 @@
 .widget {
   display: flex;
-  width: 288px;
+  //width: 288px;
+  flex: 1;
   height: 110px;
   justify-content: space-between;
   padding: 20px;
@@ -54,9 +55,26 @@
     .icon {
       font-size: 18px;
       padding: 5px;
-      background-color: #d38eff;
       border-radius: 5px;
       align-self: flex-end;
+      -webkit-box-shadow: 0 0 0 4px rgba(34, 60, 80, 0.05);
+      -moz-box-shadow: 0 0 0 4px rgba(34, 60, 80, 0.05);
+      box-shadow: 0 0 0 4px rgba(34, 60, 80, 0.05);
+    }
+
+    .user-icon {
+      color: green;
+      background-color: #b8ff60;
+    }
+
+    .order-icon {
+      color: #8f8f00;
+      background-color: yellow;
+    }
+
+    .earning-icon {
+      color: #008f8a;
+      background-color: #00ffd2;
     }
 
   }

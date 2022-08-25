@@ -14,30 +14,30 @@ const Home = () => {
                     <Widget
                         type="user"
                         title="USERS"
-                        countInfo="343"
+                        amount="343"
                         link="See all User"
-                        percentage="20"
+                        percentage="88"
                     />
                     <Widget
                         type="order"
                         title="USERS"
-                        countInfo="343"
+                        amount="343"
                         link="See all User"
-                        percentage="20"
+                        percentage="22"
                     />
                     <Widget
-                        type="erarning"
+                        type="earning"
                         title="USERS"
-                        countInfo="343"
+                        amount="343"
                         link="See all User"
-                        percentage="20"
+                        percentage="12"
                     />
                     <Widget
                         type="balance"
                         title="USERS"
-                        countInfo="343"
+                        amount="343"
                         link="See all User"
-                        percentage="20"
+                        percentage="66"
                     />
                 </div>
             </div>
