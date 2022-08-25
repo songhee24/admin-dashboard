@@ -4,9 +4,9 @@ import { NAVBAR_ITEMS } from '../../utils/constants/general';
 import MenuItem from './MenuItem';
 import './navbar.scss';
 
-const Index = () => {
+const Navbar = () => {
     return (
-        <div className="navbar">
+        <nav className="navbar">
             <div className="wrapper">
                 <div className="search">
                     <input type="text" placeholder="Search" />
@@ -31,8 +31,8 @@ const Index = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </nav>
     );
 };
 
-export default Index;
+export default Navbar;

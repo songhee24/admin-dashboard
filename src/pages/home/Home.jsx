@@ -11,9 +11,9 @@ const Home = () => {
     return (
         <div className="home">
             <Sidebar />
-            <div className="home-container">
+            <main className="home-container">
                 <Navbar />
-                <div className="widgets">
+                <section className="widgets">
                     <Widget
                         type="user"
                         title="USERS"
@@ -42,12 +42,12 @@ const Home = () => {
                         link="See all User"
                         percentage="66"
                     />
-                </div>
-                <div className="charts">
+                </section>
+                <section className="charts">
                     <Featured />
                     <Chart />
-                </div>
-            </div>
+                </section>
+            </main>
         </div>
     );
 };
