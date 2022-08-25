@@ -3,7 +3,7 @@ import MoreVertOutlinedIcon from '@mui/icons-material/MoreVertOutlined';
 import { buildStyles, CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import Summary from './Summary';
-import ProgressProvider from '../chart/ProgressProvider';
+import ProgressProvider from './ProgressProvider';
 import './featured.scss';
 import CountUp from 'react-countup';
 
