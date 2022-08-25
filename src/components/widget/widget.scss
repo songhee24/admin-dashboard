@@ -8,6 +8,12 @@
   -moz-box-shadow: 1px 3px 5px -1px rgba(34, 60, 80, 0.34);
   box-shadow: 1px 3px 5px -1px rgba(34, 60, 80, 0.34);
   border-radius: 10px;
+  animation-duration: 1.5s;
+
+  &.bounce {
+    animation-name: bounce;
+    animation-timing-function: ease;
+  }
 
   .left, .right {
     display: flex;
@@ -56,3 +62,10 @@
   }
 
 }
+
+
+@keyframes bounce {
+  0%   { transform: translateY(120px);  opacity: 0; }
+  100% { transform: translateY(0); opacity: 1 }
+}
+

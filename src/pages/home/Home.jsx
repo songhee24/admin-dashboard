@@ -12,10 +12,32 @@ const Home = () => {
                 <Navbar />
                 <div className="widgets">
                     <Widget
+                        type="user"
                         title="USERS"
                         countInfo="343"
                         link="See all User"
-                        percentage="20%"
+                        percentage="20"
+                    />
+                    <Widget
+                        type="order"
+                        title="USERS"
+                        countInfo="343"
+                        link="See all User"
+                        percentage="20"
+                    />
+                    <Widget
+                        type="erarning"
+                        title="USERS"
+                        countInfo="343"
+                        link="See all User"
+                        percentage="20"
+                    />
+                    <Widget
+                        type="balance"
+                        title="USERS"
+                        countInfo="343"
+                        link="See all User"
+                        percentage="20"
                     />
                 </div>
             </div>

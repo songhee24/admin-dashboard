@@ -4,12 +4,22 @@
   .home-container {
     // i don't have fixed values of size the window, sow just passing flex
     flex: 6;
-
+    flex-wrap: wrap;
     .widgets {
       flex-wrap: wrap;
       display: flex;
       padding: 20px;
       gap: 18px;
+
+      .widget:first-child {
+        animation-delay: 0s;
+      }
+      .widget:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+      .widget:nth-child(3) {
+        animation-delay: 0.3s;
+      }
     }
   }
 }
