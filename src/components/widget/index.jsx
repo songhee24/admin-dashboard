@@ -13,7 +13,7 @@ const Widget = ({ title, countInfo, link, percentage }) => {
                 <span className="link">{link}</span>
             </div>
             <div className="right">
-                <div className="percentage">
+                <div className="percentage positive">
                     <KeyboardDoubleArrowUpOutlinedIcon /> {percentage}
                 </div>
                 <PersonOutlineOutlinedIcon className="icon" />

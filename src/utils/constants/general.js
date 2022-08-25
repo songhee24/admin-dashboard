@@ -34,7 +34,7 @@ export const NAVBAR_ITEMS = [
         icon: NotificationsNoneOutlinedIcon,
     },
     {
-        messageCount: 12,
+        messageCount: 17,
         icon: ChatBubbleOutlineOutlinedIcon,
     },
     {

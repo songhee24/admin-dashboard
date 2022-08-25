@@ -4,7 +4,7 @@
   height: 110px;
   justify-content: space-between;
   padding: 20px;
-  -webkit-box-shadow: 1px 3px 5px -1px rgba(34, 60, 80, 0.34);
+  -webkit-box-shadow: 1px 3px 5px -1px rgb(0, 0, 0);
   -moz-box-shadow: 1px 3px 5px -1px rgba(34, 60, 80, 0.34);
   box-shadow: 1px 3px 5px -1px rgba(34, 60, 80, 0.34);
   border-radius: 10px;
@@ -27,7 +27,30 @@
 
     .link {
       font-size: 12px;
-      border-bottom: 1px;
+      border-bottom: 1px solid gray;
+    }
+
+    .percentage {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+
+      &.positive {
+        color: green;
+      }
+
+      &.negative {
+        color: red;
+      }
+
+    }
+
+    .icon {
+      font-size: 18px;
+      padding: 5px;
+      background-color: #d38eff;
+      border-radius: 5px;
+      align-self: flex-end;
     }
 
   }
