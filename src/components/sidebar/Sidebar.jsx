@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './sidebar.scss';
-import { MENU_ITEMS } from '../../utils/constants/general';
+import { SIDEBAR_ITEMS } from '../../utils/constants/general';
 import MenuItem from './MenuItem';
 
 const Sidebar = () => {
@@ -12,7 +12,7 @@ const Sidebar = () => {
             </div>
             <div className="center">
                 <ul>
-                    {MENU_ITEMS.map((item) => (
+                    {SIDEBAR_ITEMS.map((item) => (
                         <MenuItem
                             key={item.text}
                             title={item.title}

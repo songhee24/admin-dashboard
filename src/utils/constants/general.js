@@ -11,7 +11,38 @@ import RoomPreferencesOutlinedIcon from '@mui/icons-material/RoomPreferencesOutl
 import ContactEmergencyOutlinedIcon from '@mui/icons-material/ContactEmergencyOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 
-export const MENU_ITEMS = [
+import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
+import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
+import FullscreenOutlinedIcon from '@mui/icons-material/FullscreenOutlined';
+import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
+import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
+import ListOutlinedIcon from '@mui/icons-material/ListOutlined';
+
+export const NAVBAR_ITEMS = [
+    {
+        title: 'English',
+        icon: LanguageOutlinedIcon,
+    },
+    {
+        icon: DarkModeOutlinedIcon,
+    },
+    {
+        icon: FullscreenOutlinedIcon,
+    },
+    {
+        notificationCount: 2,
+        icon: NotificationsNoneOutlinedIcon,
+    },
+    {
+        messageCount: 12,
+        icon: ChatBubbleOutlineOutlinedIcon,
+    },
+    {
+        icon: ListOutlinedIcon,
+    },
+];
+
+export const SIDEBAR_ITEMS = [
     {
         title: 'MAIN',
         text: 'Dashboard',
