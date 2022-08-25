@@ -2,8 +2,8 @@ import React from 'react';
 import Sidebar from '../../components/sidebar';
 import Navbar from '../../components/navbar';
 import Widget from '../../components/widget';
-import Featured from '../../components/featured/Featured';
-import Chart from '../../components/chart/Chart';
+import Featured from '../../components/featured';
+import Chart from '../../components/chart';
 
 import './home.scss';
 
@@ -16,29 +16,25 @@ const Home = () => {
                 <section className="widgets">
                     <Widget
                         type="user"
-                        title="USERS"
-                        amount="343"
+                        amount="643"
                         link="See all User"
                         percentage="88"
                     />
                     <Widget
                         type="order"
-                        title="USERS"
-                        amount="343"
+                        amount="243"
                         link="See all User"
                         percentage="22"
                     />
                     <Widget
                         type="earning"
-                        title="USERS"
-                        amount="343"
+                        amount="3413"
                         link="See all User"
                         percentage="12"
                     />
                     <Widget
                         type="balance"
-                        title="USERS"
-                        amount="343"
+                        amount="543"
                         link="See all User"
                         percentage="66"
                     />

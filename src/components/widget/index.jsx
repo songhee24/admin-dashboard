@@ -45,14 +45,14 @@ const Widget = ({ type, amount, percentage }) => {
             <div className="left">
                 <span className="title">{title}</span>
                 <span className="counter">
-                    <CountUp end={amount} suffix={isMoney ? ' $' : ''} />
+                    <CountUp end={amount} prefix={isMoney ? '$' : ''} />
                 </span>
                 <span className="link">{link}</span>
             </div>
             <div className="right">
                 <div className="percentage positive">
                     <KeyboardDoubleArrowUpOutlinedIcon />
-                    <CountUp end={percentage} suffix={' %'} />
+                    <CountUp end={percentage} suffix="% " />
                 </div>
                 {icon}
             </div>
