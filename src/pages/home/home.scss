@@ -4,5 +4,12 @@
   .home-container {
     // i don't have fixed values of size the window, sow just passing flex
     flex: 6;
+
+    .widgets {
+      flex-wrap: wrap;
+      display: flex;
+      padding: 20px;
+      gap: 18px;
+    }
   }
 }
