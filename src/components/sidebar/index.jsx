@@ -4,7 +4,7 @@ import './sidebar.scss';
 import { SIDEBAR_ITEMS } from '../../utils/constants/general';
 import MenuItem from './MenuItem';
 
-const Sidebar = () => {
+const Index = () => {
     return (
         <div className="sidebar">
             <div className="top">
@@ -30,4 +30,4 @@ const Sidebar = () => {
     );
 };
 
-export default Sidebar;
+export default Index;

@@ -4,7 +4,7 @@ import { NAVBAR_ITEMS } from '../../utils/constants/general';
 import MenuItem from './MenuItem';
 import './navbar.scss';
 
-const Navbar = () => {
+const Index = () => {
     return (
         <div className="navbar">
             <div className="wrapper">
@@ -35,4 +35,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Index;
