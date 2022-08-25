@@ -1,8 +1,11 @@
 import React from 'react';
-import './home.scss';
 import Sidebar from '../../components/sidebar';
 import Navbar from '../../components/navbar';
 import Widget from '../../components/widget';
+import Featured from '../../components/featured/Featured';
+import Chart from '../../components/chart/Chart';
+
+import './home.scss';
 
 const Home = () => {
     return (
@@ -39,6 +42,10 @@ const Home = () => {
                         link="See all User"
                         percentage="66"
                     />
+                </div>
+                <div className="charts">
+                    <Featured />
+                    <Chart />
                 </div>
             </div>
         </div>
