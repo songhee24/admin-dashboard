@@ -1,0 +1,89 @@
+.widget {
+  display: flex;
+  //width: 288px;
+  flex: 1;
+  height: 110px;
+  justify-content: space-between;
+  padding: 20px;
+  -webkit-box-shadow: 1px 3px 5px -1px rgb(0, 0, 0);
+  -moz-box-shadow: 1px 3px 5px -1px rgba(34, 60, 80, 0.34);
+  box-shadow: 1px 3px 5px -1px rgba(34, 60, 80, 0.34);
+  border-radius: 10px;
+  animation-duration: 1.5s;
+
+  &.bounce {
+    animation-name: bounce;
+    animation-timing-function: ease;
+  }
+
+  .left, .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title {
+      font-weight: bold;
+      font-size: 14px;
+      color: #bbbbbb;
+    }
+
+    .counter {
+      font-size: 28px;
+      font-weight: 300;
+    }
+
+    .link {
+      font-size: 12px;
+      border-bottom: 1px solid gray;
+    }
+
+    .percentage {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+
+      &.positive {
+        color: green;
+      }
+
+      &.negative {
+        color: red;
+      }
+
+    }
+
+    .icon {
+      font-size: 18px;
+      padding: 5px;
+      border-radius: 5px;
+      align-self: flex-end;
+      -webkit-box-shadow: 0 0 0 4px rgba(34, 60, 80, 0.05);
+      -moz-box-shadow: 0 0 0 4px rgba(34, 60, 80, 0.05);
+      box-shadow: 0 0 0 4px rgba(34, 60, 80, 0.05);
+    }
+
+    .user-icon {
+      color: green;
+      background-color: #b8ff60;
+    }
+
+    .order-icon {
+      color: #8f8f00;
+      background-color: yellow;
+    }
+
+    .earning-icon {
+      color: #008f8a;
+      background-color: #00ffd2;
+    }
+
+  }
+
+}
+
+
+@keyframes bounce {
+  0%   { transform: translateY(120px);  opacity: 0; }
+  100% { transform: translateY(0); opacity: 1 }
+}
+
